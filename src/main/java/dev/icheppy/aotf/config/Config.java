@@ -59,10 +59,6 @@ public class Config {
         );
         Properties properties = new Properties();
         properties.load(inputStream);
-        System.out.println(properties.getProperty("key"));
-        System.out.println(properties.getProperty("key"));
-        System.out.println(properties.getProperty("key"));
-        System.out.println(properties.getProperty("key"));
 
         this.key = properties.getProperty("key");
         this.minProfit = Integer.parseInt(properties.getProperty("minProfit"));
