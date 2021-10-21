@@ -2,7 +2,7 @@
 {
   "modid": "aotf",
   "name": "Aspect Of The Flipper",
-  "description": "A mincraft 1.8.9 serving as a GUI client for the AOTF backend",
+  "description": "A Minecraft 1.8.9 serving as a GUI client for the AOTF backend",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",

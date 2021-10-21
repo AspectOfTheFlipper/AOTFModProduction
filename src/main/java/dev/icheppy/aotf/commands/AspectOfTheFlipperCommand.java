@@ -128,7 +128,7 @@ public class AspectOfTheFlipperCommand extends CommandBase {
 // ----------------------------------------------------------------------------------------------------------------------------------------------------
 // /aotf minROI
 // Writes the minimum return on investment for a flip to be displayed
-// Takes ROI as it's only argument
+// Takes ROI as its only argument
 
             } else if (strings[0].equalsIgnoreCase("minroi")){
                 if (strings.length != 2){
