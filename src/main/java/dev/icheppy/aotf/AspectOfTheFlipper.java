@@ -2,7 +2,6 @@ package dev.icheppy.aotf;
 
 import dev.icheppy.aotf.commands.AspectOfTheFlipperCommand;
 import dev.icheppy.aotf.config.Config;
-import dev.icheppy.aotf.listeners.JoinHandler;
 import net.minecraftforge.client.ClientCommandHandler;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
@@ -26,6 +25,5 @@ public class AspectOfTheFlipper
     public void init(FMLInitializationEvent event) throws IOException {
         config = new Config();
         ClientCommandHandler.instance.registerCommand(new AspectOfTheFlipperCommand());
-        MinecraftForge.EVENT_BUS.register(new JoinHandler());
     }
 }
