@@ -204,6 +204,8 @@ public class AspectOfTheFlipperCommand extends CommandBase {
                                 .build());
                     }
                 }
+            } else {
+                ICommandSender.addChatMessage(new ChatComponentText(Utils.getPrefix() + "no valid subcommand was given. Refer to the command usage: " + commandUsage));
             }
         } 
     }
